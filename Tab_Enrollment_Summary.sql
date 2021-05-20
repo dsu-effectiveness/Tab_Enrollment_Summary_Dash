@@ -3,10 +3,7 @@ SELECT a.term_desc AS Term,
        e.term_start_date,
        a.term_id,
        a.level_id,
-       CASE WHEN a.entry_action_status = 'RS'
-            THEN a.student_type_desc
-            ELSE a.entry_action_status
-            END AS entry_action_status,
+       a.entry_action_status,
        b.birth_date,
        b.gender_code,
        CASE
