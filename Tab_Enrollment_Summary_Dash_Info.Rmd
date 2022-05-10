@@ -13,6 +13,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The Student Enrollment Summary dashboard was created and published in Tableau. It lives on the viz.uen.org Tableau Server. This dashboard is scheduled for extract refresh Mon-Fri at 4 a.m.
 
+Link to dashboard on the viz.uen.org server: https://viz.uen.org/t/dixie/views/Studentenrollmentsummary/Studentenrollment?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y#3
+
+A copy of this dashboard can be downloaded from viz.uen.org for updates. Credentials for viz.uen.org need to be assigned for use.
+
 PostgreSQL for this dashboard was written on the Edify/EAB data warehouse.
 
 The dashboard is organized into four tabs: 
